@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType Condition="'$(Configuration)'=='Release'">WinExe</OutputType>
+    <OutputType Condition="'$(Configuration)'=='Debug'">Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Uno.WinUI.Skia.Wpf" Version="3.2.0-dev.382" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Win10.UI.FaceOff.Uno.Skia.WPF\Win10.UI.FaceOff.Uno.Skia.WPF.csproj" />
+  </ItemGroup>
+</Project>

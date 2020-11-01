@@ -1,0 +1,15 @@
+{
+  "name": "Win10.UI.FaceOff.Blazor.WASM",
+  "short_name": "Win10.UI.FaceOff.Blazor.WASM",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#03173d",
+  "icons": [
+    {
+      "src": "icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
